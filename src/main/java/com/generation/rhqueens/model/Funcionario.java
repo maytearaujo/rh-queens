@@ -30,7 +30,7 @@ public class Funcionario {
 	@Size(min = 5, max = 100, message = "O cargo precisa ser maior que 5 e menor que 100")
 	private String cargo;
 	
-	@NotNull(message="Salatio não pode ser nulo")
+	@NotNull(message="Salario não pode ser nulo")
 	@DecimalMin(value="0.0", inclusive=true,
 	message = "Salário precisa ser maior ou igual a zero")	
 	private Double salario;
